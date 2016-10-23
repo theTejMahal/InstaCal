@@ -9,4 +9,4 @@ To Use:
 2. Confirm the information 
 3. Send to mobile Calendar
 
-Implementation for andriod devices - soon to come! 
+Implementation for Andriod devices - soon to come! 
