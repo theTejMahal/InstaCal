@@ -5,9 +5,10 @@ information automatically stored to their iCal as an event. This app implements 
 Character Recognition API.
 
 To Use: 
-1) Take a picture 
-1.5) Retake the picture until it's perfect
-2) Confirm the information 
-3) Send to iCalendar
+
+1. Take a picture
+  1. Retake the picture until it's perfect
+2. Confirm the information 
+3. Send to iCalendar
 
 Implementation for andriod devices - soon to come! 
