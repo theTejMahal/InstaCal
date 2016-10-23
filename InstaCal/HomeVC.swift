@@ -48,9 +48,12 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCamera()
+        print("im here")
+
     }
     
     @IBAction func captureAction() {
+        print("hello")
         self.camera.capture({(camera, image, metadata, error) -> Void in
             
             // Delay stopping camera so that camera trigger sound does not get cut
