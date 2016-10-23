@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AWSCore (2.4.11)
+  - AWSS3 (2.4.11):
+    - AWSCore (= 2.4.11)
+  - LLSimpleCamera (5.0.0)
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - AWSS3
+  - LLSimpleCamera (~> 5.0.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 6a0c3a82e2b4a07723b4958146315c7928220189
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AWSCore: e66b0f50d68f9897cc9e68471062f0cb5379eec5
+  AWSS3: 2f90735901744687eaeb91621fa62ee921db6510
+  LLSimpleCamera: 7175ccb81be71c83d79933089322eb662b1f0327
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: 7608104b4950efd157117a770d90ec9eb1496fe5
+
+COCOAPODS: 1.1.1

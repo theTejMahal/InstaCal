@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C141E2A8875CE89152F1038D /* Pods_InstaCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC356645CDE9320E46CE5AA2 /* Pods_InstaCal.framework */; };
+		C57082041DBBE465007AEE1F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57082031DBBE465007AEE1F /* DesignableButton.swift */; };
+		C57082081DBBF52D007AEE1F /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57082071DBBF52D007AEE1F /* ImagePreviewVC.swift */; };
+		C570820A1DBBF8E6007AEE1F /* ImagePreviewVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57082091DBBF8E6007AEE1F /* ImagePreviewVC.storyboard */; };
 		C59BF1B11DBBC50F00F6F115 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BF1B01DBBC50F00F6F115 /* AppDelegate.swift */; };
-		C59BF1B31DBBC50F00F6F115 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BF1B21DBBC50F00F6F115 /* ViewController.swift */; };
+		C59BF1B31DBBC50F00F6F115 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59BF1B21DBBC50F00F6F115 /* HomeVC.swift */; };
 		C59BF1B61DBBC50F00F6F115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59BF1B41DBBC50F00F6F115 /* Main.storyboard */; };
 		C59BF1B81DBBC50F00F6F115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59BF1B71DBBC50F00F6F115 /* Assets.xcassets */; };
 		C59BF1BB1DBBC50F00F6F115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59BF1B91DBBC50F00F6F115 /* LaunchScreen.storyboard */; };
+		C59CAC3A1DBC0D8800EBC975 /* AWS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CAC391DBC0D8800EBC975 /* AWS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E7BE7925F214FBC51E07B97 /* Pods-InstaCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCal.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCal/Pods-InstaCal.release.xcconfig"; sourceTree = "<group>"; };
+		BD3B786F811899DBD9E81960 /* Pods-InstaCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaCal/Pods-InstaCal.debug.xcconfig"; sourceTree = "<group>"; };
+		C57082031DBBE465007AEE1F /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		C57082071DBBF52D007AEE1F /* ImagePreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
+		C57082091DBBF8E6007AEE1F /* ImagePreviewVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImagePreviewVC.storyboard; sourceTree = "<group>"; };
 		C59BF1AD1DBBC50F00F6F115 /* InstaCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59BF1B01DBBC50F00F6F115 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C59BF1B21DBBC50F00F6F115 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C59BF1B21DBBC50F00F6F115 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C59BF1B51DBBC50F00F6F115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C59BF1B71DBBC50F00F6F115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59BF1BA1DBBC50F00F6F115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59BF1BC1DBBC50F00F6F115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59CAC391DBC0D8800EBC975 /* AWS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWS.swift; sourceTree = "<group>"; };
+		CC356645CDE9320E46CE5AA2 /* Pods_InstaCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C141E2A8875CE89152F1038D /* Pods_InstaCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4997B6BAF8CB61973725E415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B786F811899DBD9E81960 /* Pods-InstaCal.debug.xcconfig */,
+				7E7BE7925F214FBC51E07B97 /* Pods-InstaCal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C59BF1A41DBBC50F00F6F115 = {
 			isa = PBXGroup;
 			children = (
 				C59BF1AF1DBBC50F00F6F115 /* InstaCal */,
 				C59BF1AE1DBBC50F00F6F115 /* Products */,
+				4997B6BAF8CB61973725E415 /* Pods */,
+				F8C9CBF91E5FD69D0232C700 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,34 @@
 		C59BF1AF1DBBC50F00F6F115 /* InstaCal */ = {
 			isa = PBXGroup;
 			children = (
-				C59BF1B01DBBC50F00F6F115 /* AppDelegate.swift */,
-				C59BF1B21DBBC50F00F6F115 /* ViewController.swift */,
+				C59BF1C21DBBC53700F6F115 /* Supporting Files */,
+				C59BF1B21DBBC50F00F6F115 /* HomeVC.swift */,
+				C59CAC391DBC0D8800EBC975 /* AWS.swift */,
+				C57082031DBBE465007AEE1F /* DesignableButton.swift */,
+				C57082071DBBF52D007AEE1F /* ImagePreviewVC.swift */,
+				C57082091DBBF8E6007AEE1F /* ImagePreviewVC.storyboard */,
 				C59BF1B41DBBC50F00F6F115 /* Main.storyboard */,
+			);
+			path = InstaCal;
+			sourceTree = "<group>";
+		};
+		C59BF1C21DBBC53700F6F115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59BF1B01DBBC50F00F6F115 /* AppDelegate.swift */,
 				C59BF1B71DBBC50F00F6F115 /* Assets.xcassets */,
 				C59BF1B91DBBC50F00F6F115 /* LaunchScreen.storyboard */,
 				C59BF1BC1DBBC50F00F6F115 /* Info.plist */,
 			);
-			path = InstaCal;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C9CBF91E5FD69D0232C700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC356645CDE9320E46CE5AA2 /* Pods_InstaCal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C59BF1BF1DBBC50F00F6F115 /* Build configuration list for PBXNativeTarget "InstaCal" */;
 			buildPhases = (
+				C03CFF1729EB4F51826CE2C1 /* [CP] Check Pods Manifest.lock */,
 				C59BF1A91DBBC50F00F6F115 /* Sources */,
 				C59BF1AA1DBBC50F00F6F115 /* Frameworks */,
 				C59BF1AB1DBBC50F00F6F115 /* Resources */,
+				2E49EEDA720B7480B062CD2B /* [CP] Embed Pods Frameworks */,
+				2780E33A3CB8297B14E8B9A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +143,7 @@
 				TargetAttributes = {
 					C59BF1AC1DBBC50F00F6F115 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7QG338MF2P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +173,71 @@
 			files = (
 				C59BF1BB1DBBC50F00F6F115 /* LaunchScreen.storyboard in Resources */,
 				C59BF1B81DBBC50F00F6F115 /* Assets.xcassets in Resources */,
+				C570820A1DBBF8E6007AEE1F /* ImagePreviewVC.storyboard in Resources */,
 				C59BF1B61DBBC50F00F6F115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2780E33A3CB8297B14E8B9A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCal/Pods-InstaCal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E49EEDA720B7480B062CD2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaCal/Pods-InstaCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03CFF1729EB4F51826CE2C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C59BF1A91DBBC50F00F6F115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59BF1B31DBBC50F00F6F115 /* ViewController.swift in Sources */,
+				C59BF1B31DBBC50F00F6F115 /* HomeVC.swift in Sources */,
+				C57082081DBBF52D007AEE1F /* ImagePreviewVC.swift in Sources */,
+				C59CAC3A1DBC0D8800EBC975 /* AWS.swift in Sources */,
 				C59BF1B11DBBC50F00F6F115 /* AppDelegate.swift in Sources */,
+				C57082041DBBE465007AEE1F /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +358,12 @@
 		};
 		C59BF1C01DBBC50F00F6F115 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3B786F811899DBD9E81960 /* Pods-InstaCal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QG338MF2P;
 				INFOPLIST_FILE = InstaCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.instacal.InstaCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +373,12 @@
 		};
 		C59BF1C11DBBC50F00F6F115 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7BE7925F214FBC51E07B97 /* Pods-InstaCal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QG338MF2P;
 				INFOPLIST_FILE = InstaCal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.instacal.InstaCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +405,7 @@
 				C59BF1C11DBBC50F00F6F115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
