@@ -10,3 +10,5 @@ To Use:
 3. Send to mobile Calendar
 
 Implementation for Andriod devices - soon to come! 
+
+Sample use case here: https://www.youtube.com/watch?v=DD67cI5yvNk
