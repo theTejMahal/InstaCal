@@ -6,7 +6,7 @@ information automatically stored to their Outlook, iCalendar, Google Calendar, Y
 To Use: 
 
 1. Take a picture
-2. Confirm the information 
+2. Confirm event information 
 3. Send to mobile calendar
 ___
 
