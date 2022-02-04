@@ -7,7 +7,7 @@ To Use:
 
 1. Take a picture
 2. Confirm event information 
-3. Send to mobile calendar
+3. Send to calendar
 ___
 
 Sample use case here: https://www.youtube.com/watch?v=DD67cI5yvNk
