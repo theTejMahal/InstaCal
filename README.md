@@ -11,7 +11,10 @@ To Use:
 
 Implementation for Andriod devices - soon to come! 
 
+___
+
 Sample use case here: https://www.youtube.com/watch?v=DD67cI5yvNk
+
 HackHarvard booth video here: https://www.youtube.com/watch?v=wP3-GXeRD3Y
 
 The team: 
