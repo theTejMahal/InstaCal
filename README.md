@@ -15,7 +15,7 @@ ___
 
 Sample use case here: https://www.youtube.com/watch?v=DD67cI5yvNk
 
-HackHarvard booth video here: https://www.youtube.com/watch?v=wP3-GXeRD3Y
+HackHarvard booth video here: https://www.youtube.com/watch?v=sNGzWsYiOkM
 
 The team: 
 ![14813362_752587178215163_2006731665_o](https://user-images.githubusercontent.com/20506220/152448510-b1a46a45-368f-469a-aa1c-25730d71a64b.jpg)
