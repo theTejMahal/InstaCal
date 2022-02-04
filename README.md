@@ -7,10 +7,7 @@ To Use:
 
 1. Take a picture
 2. Confirm the information 
-3. Send to mobile Calendar
-
-Implementation for Andriod devices - soon to come! 
-
+3. Send to mobile calendar
 ___
 
 Sample use case here: https://www.youtube.com/watch?v=DD67cI5yvNk
